@@ -165,13 +165,13 @@ const Main=()=>{
                 <p style={{fontSize:14,fontWeight:400,width:378,textAlign:"center",color:"#545454"}}>(This is how we optimize Wobot as per your business needs)</p>
                 </div>
                 <div  style={{display:"flex",justifyContent:"center",}}>
-                <Stack>
+                <Stack spacing={1}>
                 <p style={{fontSize:14,fontWeight:500,width:378,textAlign:"left",color:"#545454",marginBottom:7}}>Company name</p>
                 <TextField id="outlined-basic" label="e.g. Example Inc" variant="outlined" size="small" />
                 </Stack>
                 </div>
-                <div  style={{display:"flex",justifyContent:"center",marginTop:20}}>
-                <Stack>
+                <div  style={{display:"flex",justifyContent:"center",marginTop:0}}>
+                <Stack spacing={0.5}>
                 <p style={{fontSize:14,fontWeight:500,width:378,textAlign:"left",color:"#545454",marginBottom:7}}>Industry</p>
                 <Autocomplete
                     disablePortal
@@ -204,7 +204,7 @@ const Main=()=>{
                 </Stack>
                 </div>
                 <div  style={{display:"flex",justifyContent:"center",marginTop:120}}>
-                <p style={{fontSize:14,fontWeight:400,width:185,textAlign:"center"}}>Terms of use  |  Privacy policy </p>
+                <p style={{fontSize:14,fontWeight:400,width:185,textAlign:"center",color:"#545454"}}>Terms of use  |  Privacy policy </p>
                 </div>
                 
             </div>
